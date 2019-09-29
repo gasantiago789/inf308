@@ -18,7 +18,7 @@ word = word.upper()
 #   Creation of dictionary where ordered letters and numbers will be placed
 dict = {}
 
-#   For loop that loops thorugh the string and ads values on to it depending if the letter is repeated or not
+#   For loop that loops through the string and ads values on to it depending if the letter is repeated or not
 for x in word:
     keys = dict.keys()
     if x in keys:
